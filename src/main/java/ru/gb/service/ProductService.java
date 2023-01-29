@@ -42,5 +42,11 @@ public class ProductService {
         productRepositorty.deleteById(id);
     };
 
+
+    public void addProductById(Product product)
+    {
+        productRepositorty.save(product);
+    };
+
 }
 

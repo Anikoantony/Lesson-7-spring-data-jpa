@@ -30,4 +30,10 @@ public class CostumerService {
 
     public Costumer findOdest()
     {return costumerRepisitory.getFindOldest();}
+
+
+    public List<Costumer> findAll()
+    {
+        return costumerRepisitory.findAll();
+    }
 }
